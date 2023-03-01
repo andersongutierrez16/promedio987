@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Promedio de Notas </h2>
+
+    <p>Nota 1: <input type="text" id="n1"></p>
+
+    <p>Nota 2: <input type-0="text" id="n2"> </p>
+
+    <p>Nota 3: <input type="text" id="n3"></p>
+
+    <p>Nota 4: <input type="text" id="n4"></p>
+
+    <p>Nota 5: <input type="text" id="n5"></p>
+
+    <p><input type="button" value="Calcular" onclick="CalcularPromedio()"> </p>
+
+    <p id="promedio"></p>
+
+</body>
+
+<script>
+
+function CalcularPromedio(){
+
+var v1 = document.getElementById("n1").value;
+
+var v2 = document .getElementById("n2").value;
+
+var v3 = document.getElementById("n3").value;
+
+var v3 = document.getElementById("n4").value;
+
+var v3 = document.getElementById("n5").value;
+
+var pro = (parseFloat (v1) +parseFloat (v2) +parseFloat(v3) +parseFloat(v4) +parseFloat (v5))/5;
+
+document.getElementById("promedio").innerHTML = pro;
+
+}
+
+</script>
+
+</html>
